@@ -1,14 +1,14 @@
 * {
   padding:0;
   margin:0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Muli', sans-serif;
 }
 
 .clearfix {
   overflow: auto;
 }
 
-.education-entry, .work-entry, .project-entry {
+.education-entry, .work-entry, .project-entry, .online-entry {
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -73,7 +73,7 @@ p {
 }
 
 a {
-  color: #1199C3;
+  color: #444;
   text-decoration: none;
   margin-top: 10px;
   display: block;
@@ -84,11 +84,19 @@ a {
   font-size: 18px;
   color: #F3F3F3;
   line-height: 28px;
+  top: 20px;
+  position: relative;
 }
 
 #skillsH3 {
   color: #F5AE23;
   display: none;
+  top: 30px;
+  position: relative;
+}
+#skills{
+  top: 30px;
+  position: relative;
 }
 
 .orange {
@@ -116,7 +124,7 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: rgba(51, 32, 11, 0.66);
 }
 
 .flex-box {
@@ -146,6 +154,10 @@ ul {
   display: none;
 }
 
+#workExperience, #projects, #education, #mapDiv{
+  padding: 25px 0px;
+}
+
 img {
   padding: 10px;
 }
@@ -168,6 +180,10 @@ span {
 
 #letsConnect {
   text-align: center;
+}
+
+.project-image{
+  max-width:200px;
 }
 
 @media only screen and (max-width: 1024px) {
